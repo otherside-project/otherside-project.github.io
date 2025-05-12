@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>otherside</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <div class="header-container">
+        <h1>~<span class="highlight">other</span>side</h1>
+        <img src="../../images/palera1n_220px.png"/>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">вступление</span>.sh</p>
+        <p><span class="highlight">$</span> Руководство по установке palera1n на компьютере с операционной системой Windows.</p>
+        <p><span class="highlight">$</span> palen1x - загрузочная среда Linux для запуска palera1n на Windows-компьютерах.</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">подготовка</span>.sh</p>
+        <p><span class="highlight">$</span> Скачайте необходимые файлы по ссылкам:</p>
+        <ul>
+            <li>[file] > <a href="https://github.com/palera1n/palen1x/releases" class="highlight">образ_palen1x</a></li>
+            <li>[tool] > <a href="https://sourceforge.net/projects/ventoy/files/" class="highlight">ventoy</a></li>
+        </ul>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">создание_загрузочной_флешки</span>.sh</p>
+        <p><span class="highlight">1.</span> Запустите Ventoy2Disk.exe</p>
+        <p><span class="highlight">2.</span> Выберите ваш USB-накопитель</p>
+        <p><span class="highlight">3.</span> Нажмите "Install" (все данные с USB-накопителя будут удалены!)</p>
+        <p><span class="highlight">4.</span> Скопируйте palen1x.iso на USB-накопитель</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">загрузка_palen1x</span>.sh</p>
+        <p><span class="highlight">1.</span> Перезагрузите компьютер</p>
+        <p><span class="highlight">2.</span> Войдите в BIOS (нажимайте F2 или Del при запуске компьютера)</p>
+        <p><span class="highlight">3.</span> Отключите Secure Boot</p>
+        <p><span class="highlight">4.</span> Выберите загрузку с USB-накопителя</p>
+        <p><span class="highlight">5.</span> На экране Ventoy нажмите Enter </p>
+        <p><span class="highlight">6.</span> В меню palen1x выберите "Shell"</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">активация_джейлбрейка</span>.sh</p>
+        <p><span class="highlight">$</span> Для кабелей USB-C/Lightning могут быть проблемы с входом в DFU. Лучше использовать USB-A/Lightning.</p>
+        <p><span class="highlight">1.</span> Выполните команду:</p>
+        <p class="line">palera1n -l</p>
+        <p><span class="highlight">2.</span> Подключите устройство и нажмите Enter</p>
+        <p><span class="highlight">3.</span> Следуйте инструкциям на экране для входа в DFU режим</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">решение_проблем</span>.sh</p>
+        <p><span class="highlight">$</span> Если устройство с процессором A9 и старше зависло в pongoOS:</p>
+        <p><span class="highlight">1.</span> Нажмите Control+C</p>
+        <p><span class="highlight">2.</span> Вновь выполните команду:</p>
+        <p class="line">palera1n -l</p>
+        <p><span class="highlight">$</span> Эту процедуру нужно выполнять при каждом повторном джейлбрейке.</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">завершение</span>.sh</p>
+        <p><span class="highlight">$</span> После перезагрузки устройства откройте приложение palera1n loader и установите Sileo.</p>
+        <p><span class="highlight">$</span> Для повторного джейлбрейка просто вновь загрузитесь с флешки в palen1x и выполните команду:</p>
+        <p class="line">palera1n -l</p>
+        <p><span class="highlight">$</span> На этом установка джейлбрейка palera1n завершена!</p>
+        <p><span class="highlight">$</span> Теперь вы можете устанавливать твики через Sileo.</p>
+    </div>
+
+    <div class="block">
+        <p class="line"><a href="palera1n_main.html" class="highlight">[←]</a> Назад</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>otherside</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <div class="header-container">
+        <h1>~<span class="highlight">other</span>side</h1>
+        <img src="../../images/trollstore_220px.png"/>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">сведения</span>.sh</p>
+        <p><span class="highlight">$</span> TrollRestore - метод установки TrollStore через восстановление модифицированной резервной копии.</p>
+    </div>
+
+    <div class="warning">
+        Выбирайте версию TrollRestore строго для вашей ОС: TrollRestore.exe для Windows, TrollRestore_Linux.zip для Linux, TrollRestore_macOS_amd64.zip для MacOS (процессор Intel), TrollRestore_macOS_armd64.zip для MacOS (процессор Apple Silicon).
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">требования</span>.sh</p>
+        <p><span class="highlight">$</span> Необходимые компоненты:</p>
+        <ul>
+            <li>[tool] > <a href="https://www.python.org/downloads/" class="highlight">python_3</a></li>
+            <li>[tool] > <a href="https://www.apple.com/itunes/" class="highlight">itunes</a> (для windows)</li>
+            <li>[tool] > <a href="https://github.com/JJTech0130/TrollRestore/releases" class="highlight">trollrestore</a></li>
+            <li>[app] > <a href="https://apps.apple.com/us/app/tips/id1069509450" class="highlight">советы</a> (из app store)</li>
+        </ul>
+    </div>
+
+    <div class="warning">
+        Для macOS / Linux распакуйте скачанный zip-архив.
+    </div>
+
+    <div class="warning">
+        Перед началом обязательно отключите "Найти iPhone / iPad" в настройках устройства. После завершения установки TrollStore можно снова включить.
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">методы_установки</span>.sh</p>
+        <p><span class="highlight">$</span> Выберите способ установки:</p>
+        <ul>
+            <li>[link] > <a href="#macos-windows-method" class="highlight">через_macos_или_windows</a></li>
+            <li>[link] > <a href="#linux-method" class="highlight">через_linux</a></li>
+        </ul>
+    </div>
+
+    <div id="macos-windows-method" class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">способ_через_macos_или_windows</span>.sh</p>
+        <p><span class="highlight">1.</span> Подключите устройство к компьютеру</p>
+        <p><span class="highlight">2.</span> Разрешите доступ к устройству при запросе</p>
+        <p><span class="highlight">3.</span> Откройте папку с TrollRestore</p>
+        <p><span class="highlight">4.</span> Запустите TrollRestore (двойной клик)</p>
+        <p><span class="highlight">5.</span> Введите Tips для замены стандартного приложения "Советы" на персистентный помощник</p>
+        <p><span class="highlight">6.</span> Нажмите Enter и дождитесь перезагрузки устройства</p>
+    </div>
+
+    <div id="linux-method" class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">способ_через_linux</span>.sh</p>
+        <p><span class="highlight">1.</span> Откройте терминал</p>
+        <p><span class="highlight">2.</span> Перейдите в папку с TrollRestore (представленный путь к папке может отличаться):</p>
+        <p class="line">cd ~/Downloads/TrollRestore_Linux</p>
+        <p><span class="highlight">3.</span> Установите зависимости:</p>
+        <p class="line">pip3 install -r requirements.txt</p>
+        <p><span class="highlight">4.</span> Подключите устройство к компьютеру</p>
+        <p><span class="highlight">5.</span> Запустите TrollRestore:</p>
+        <p class="line">python3 trollstore.py</p>
+        <p><span class="highlight">6.</span> Введите Tips для замены стандартного приложения "Советы" на персистентный помощник</p>
+        <p><span class="highlight">7.</span> Нажмите Enter и дождитесь перезагрузки устройства</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">установка_trollstore</span>.sh</p>
+        <p><span class="highlight">1.</span> Откройте приложение Tips (Советы)</p>
+        <p><span class="highlight">2.</span> Нажмите "Install TrollStore"</p>
+        <p><span class="highlight">3.</span> Дождитесь респринга устройства</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">повторное_внедрение_помощника</span>.sh</p>
+        <p><span class="highlight">1.</span> Откройте TrollStore на домашнем экране</p>
+        <p><span class="highlight">2.</span> Перейдите в Settings → Persistence → Install Persistence Helper</p>
+        <p><span class="highlight">3.</span> Выберите Tips (Советы) из списка приложений</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">завершение</span>.sh</p>
+        <p><span class="highlight">$</span> TrollStore успешно установлен!</p>
+        <p><span class="highlight">$</span> Для установки IPA-файлов используйте кнопку "+" в TrollStore.</p>
+    </div>
+
+    <div class="block">
+        <p class="line"><a href="../ipa_main.html" class="highlight">[←]</a> Назад</p>
+    </div>
+</body>
+</html>

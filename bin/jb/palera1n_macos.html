@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>otherside</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <div class="header-container">
+        <h1>~<span class="highlight">other</span>side</h1>
+        <img src="../../images/palera1n_220px.png"/>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">вступление</span>.sh</p>
+        <p><span class="highlight">$</span> Руководство по установке palera1n с помощью компьютера с операционной системой MacOS.</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">установка_palera1n</span>.sh</p>
+        <p><span class="highlight">1.</span> Откройте Terminal.app</p>
+        <p><span class="highlight">2.</span> Выполните команду:</p>
+        <p class="line">sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"</p>
+        <p><span class="highlight">3.</span> Введите пароль администратора, когда потребуется</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">активация_джейлбрейка</span>.sh</p>
+        <p><span class="highlight">$</span> Для кабелей USB-C/Lightning могут быть проблемы с входом в DFU. Лучше использовать USB-A/Lightning.</p>
+        <p><span class="highlight">1.</span> Выполните команду:</p>
+        <p class="line">palera1n -l</p>
+        <p><span class="highlight">2.</span> Подключите устройство и нажмите Enter</p>
+        <p><span class="highlight">3.</span> Следуйте инструкциям на экране для входа в DFU режим</p>
+    </div>
+
+    <div class="warning">
+        На Mac с Apple Silicon при использовании USB-C порта вам потребуется отключить и снова подключить устройство после появления "Checkmate!" в логах.
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">решение_проблем</span>.sh</p>
+        <p><span class="highlight">$</span> Если устройство с процессором A9 и старше зависло в pongoOS:</p>
+        <p><span class="highlight">1.</span> Нажмите Control+C</p>
+        <p><span class="highlight">2.</span> Вновь выполните команду:</p>
+        <p class="line">palera1n -l</p>
+        <p><span class="highlight">$</span> Эту процедуру нужно выполнять при каждом повторном джейлбрейке.</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">завершение</span>.sh</p>
+        <p><span class="highlight">$</span> После перезагрузки устройства откройте приложение palera1n loader и установите Sileo.</p>
+        <p><span class="highlight">$</span> Для повторного джейлбрейка просто вновь выполните команду:</p>
+        <p class="line">palera1n -l</p>
+        <p><span class="highlight">$</span> На этом установка джейлбрейка palera1n завершена!</p>
+        <p><span class="highlight">$</span> Теперь вы можете устанавливать твики через Sileo.</p>
+    </div>
+
+    <div class="block">
+        <p class="line"><a href="palera1n_main.html" class="highlight">[←]</a> Назад</p>
+    </div>
+</body>
+</html>

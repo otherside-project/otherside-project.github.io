@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>otherside</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <div class="header-container">
+        <h1>~<span class="highlight">other</span>side</h1>
+        <img src="../../images/palera1n_220px.png"/>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">вступление</span>.sh</p>
+        <p><span class="highlight">$</span> Руководство по установке palera1n на компьютере с операционной системой на базе Linux.</p>
+    </div>
+
+    <div class="warning">
+        На Ubuntu и других Debian-подобных дистрибутивах могут возникнуть проблемы. Рекомендуется использовать другой дистрибутив или palen1x для windows. Также на компьютерах с процессорами AMD Ryzen возможны проблемы, поэтому лучше использовать Mac или ПК с Intel CPU.
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">подготовка</span>.sh</p>
+        <p><span class="highlight">1.</span> Откройте терминал</p>
+        <p><span class="highlight">2.</span> Остановите usbmuxd:</p>
+        <p class="line">sudo systemctl stop usbmuxd</p>
+        <p><span class="highlight">3.</span> Запустите usbmuxd вручную:</p>
+        <p class="line">sudo usbmuxd -f -p</p>
+        <p><span class="highlight">4.</span> Откройте второй терминал для следующих команд</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">установка_palera1n</span>.sh</p>
+        <p><span class="highlight">1.</span> Установите palera1n:</p>
+        <p class="line">sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"</p>
+        <p><span class="highlight">2.</span> Введите пароль администратора при запросе</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">активация_джейлбрейка</span>.sh</p>
+        <p><span class="highlight">$</span> Для кабелей USB-C/Lightning могут быть проблемы с входом в DFU. Лучше использовать USB-A/Lightning.</p>
+        <p><span class="highlight">1.</span> Выполните команду:</p>
+        <p class="line">sudo palera1n -l</p>
+        <p><span class="highlight">2.</span> Подключите устройство и нажмите Enter</p>
+        <p><span class="highlight">3.</span> Следуйте инструкциям на экране для входа в DFU режим</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">решение_проблем</span>.sh</p>
+        <p><span class="highlight">$</span> Если устройство с процессором A9 или старше зависло в pongoOS:</p>
+        <p><span class="highlight">1.</span> Нажмите Control+C</p>
+        <p><span class="highlight">2.</span> Повторите команду:</p>
+        <p class="line">sudo palera1n -l</p>
+        <p><span class="highlight">$</span> Это нужно делать при каждом повторном джейлбрейке.</p>
+    </div>
+
+    <div class="block">
+        <p class="line">guest@otherside ~ % <span class="highlight2">завершение</span>.sh</p>
+        <p><span class="highlight">$</span> После перезагрузки устройства откройте приложение palera1n loader и установите Sileo.</p>
+        <p><span class="highlight">$</span> Для повторного джейлбрейка просто вновь выполните команду:</p>
+        <p class="line">sudo palera1n -l</p>
+        <p><span class="highlight">$</span> На этом установка джейлбрейка palera1n завершена!</p>
+        <p><span class="highlight">$</span> Теперь вы можете устанавливать твики через Sileo.</p>
+    </div>
+
+    <div class="block">
+        <p class="line"><a href="palera1n_main.html" class="highlight">[←]</a> Назад</p>
+    </div>
+</body>
+</html>
